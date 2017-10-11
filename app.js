@@ -51,7 +51,6 @@ app.use(sassMiddleware({
 }));
 app.use(express.static(path.join(__dirname, 'public')));
 
-
 // required for passport
 // secret for session
 app.use(session({
